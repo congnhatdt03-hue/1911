@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Món Quà Đặc Biệt 💕 - 20/10</title>
+    <title>Món Quà Đặc Biệt 💕 - 19/11</title>
     <style>
         * {
             margin: 0;
@@ -423,7 +423,7 @@
     <!-- Page 1: Nhập mật khẩu -->
     <div id="page1" class="page active">
         <div class="container">
-            <h1>Có một món quà đặc biệt dành cho bạn 💕</h1>
+            <h1>Có một món quà đặc biệt dành cho anh 💕</h1>
             <div class="input-group">
                 <input type="password" id="password" placeholder="Mật khẩu của trái tim 💖" maxlength="10">
                 <button onclick="checkPassword()">Mở quà ✨</button>
@@ -436,7 +436,7 @@
     <div id="page2" class="page">
         <button class="close-btn" onclick="goBack()">✕</button>
         <div class="container">
-            <h1>Chúc mừng Ngày Phụ nữ Việt Nam! 🇻🇳</h1>
+            <h1>Chúc mừng Ngày Quốc tế Đàn Ông</h1>
 
             <!-- PHONG BÌ BAY - ✅ SỬ DỤNG unnamed.jpg -->
             <div class="envelope-float">
@@ -446,7 +446,7 @@
             <!-- HỘP QUÀ -->
             <div class="gift-box" onclick="openGift()">
                 <div class="box">🎁</div>
-                <p>Nhấn vào 🎁 để mở quà nhé!! </p>
+                <p>Nhấn vào 🎁 để mở quà anh nhé!! </p>
             </div>
         </div>
     </div>
@@ -456,7 +456,7 @@
         <button class="close-btn" onclick="goBack()">✕</button>
         <div class="container">
             <div class="envelope">
-                <div class="card">💖 Đôi lời gửi cậu 💖</div>
+                <div class="card">💖 Đôi lời gửi anh 💖</div>
             </div>
             <div class="choices">
                 <button class="btn-yes" onclick="openLetter()"> Có, mở luôn</button>
@@ -487,12 +487,12 @@
     </div>
 
     <script>
-        const CORRECT_PASSWORD = "doanxem";
+        const CORRECT_PASSWORD = "2412";
         let noClickCount = 0;
         let typingIndex = 0;
         let currentPage = 1;
 
-       const messages = `💖 Chúc An ngày lễ vui vẻ, 364 ngày còn lại luôn xinh đẹp, mạnh mẽ và hạnh phúc.💕`;
+       const messages = `💖 chúc anh 19 - 11 luôn vui vẻ và hạnh phúc💕`;
 
         const pages = document.querySelectorAll('.page');
         const passwordInput = document.getElementById('password');
@@ -543,7 +543,7 @@
             btnYes.style.transform = `scale(${1.1 + noClickCount * 0.05})`;
             
             if (noClickCount >= 8) {
-                alert('Thôi được rồi, cậu mở thư đi mà 😘💕');
+                alert('Thôi được rồi, anh mở thư đi mà 😘💕');
                 openLetter();
             }
         }
